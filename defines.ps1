@@ -1,7 +1,7 @@
 add-type -AssemblyName System.Data.OracleClient
 
 #scripts base directory
-$dir = "./temp/23_11_2020_mapfreft.test.db_R14147_to_R14197";
+$dir = "./temp/db";
 
 $username = "h4a"
 $password = "h4a"
