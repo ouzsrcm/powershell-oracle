@@ -34,7 +34,11 @@ else {
 $username = $global:appSettings["username"]
 $password = $global:appSettings["password"]
 $data_source = $global:appSettings["data_source"]
+$withsqlplus = $global:appSettings["withsqlplus"]
 $connection_string = "User Id=$username;Password=$password;Data Source=$data_source"
+
+$outputfolder = $global:appSettings["outputfolder"]
+$outputfolder = "$dir/$outputfolder"
 
 $objects = @(
     "$dir/SCRIPT/BEFORE_UPDATE"
